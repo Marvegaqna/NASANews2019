@@ -130,6 +130,12 @@ header h2 {
   overflow: hidden;
 }
 
+.wrapper {
+  height: 75px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
 .popularNews {
 	display: flex;
 	flex-wrap: wrap;

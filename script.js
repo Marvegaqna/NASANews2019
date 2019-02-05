@@ -15,7 +15,9 @@ const recievedNews = (newsdata) => {
             `<div class="news">
               <a href="${article.url}"><img src="${article.urlToImage}"/></a>
               <a href="${article.url}"><h2 class="articleTitle">${article.title}</h2></a>
-              <a href="${article.url}"><h2 class="descriptionText">${article.description}</h2></a>
+              <div class="wrapper">
+                <a href="${article.url}"><h2 class="descriptionText">${article.description}</h2></a>
+              </div>
             </div>`
 					}
     })
